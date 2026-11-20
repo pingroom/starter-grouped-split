@@ -1,0 +1,9 @@
+node_modules/
+.env
+.env.*
+!.env.example
+/.pingroom/
+/.split/
+/config.json
+/dataset.json
+.DS_Store

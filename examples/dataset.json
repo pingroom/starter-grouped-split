@@ -1,0 +1,84 @@
+{
+  "datasetId": "practice-cards",
+  "title": "Practice card classifier",
+  "context": "Which identity must stay together when evaluating unseen cards?",
+  "holdoutPercent": 25,
+  "groupingColumns": [
+    {
+      "id": "a",
+      "label": "Card identity",
+      "meaning": "All captures of one physical card"
+    },
+    {
+      "id": "b",
+      "label": "Capture batch",
+      "meaning": "All captures from one capture session"
+    }
+  ],
+  "rows": [
+    {
+      "id": "r01",
+      "classId": "cat",
+      "groups": {
+        "a": "doc1",
+        "b": "batch1"
+      }
+    },
+    {
+      "id": "r02",
+      "classId": "dog",
+      "groups": {
+        "a": "doc1",
+        "b": "batch1"
+      }
+    },
+    {
+      "id": "r03",
+      "classId": "cat",
+      "groups": {
+        "a": "doc2",
+        "b": "batch1"
+      }
+    },
+    {
+      "id": "r04",
+      "classId": "dog",
+      "groups": {
+        "a": "doc2",
+        "b": "batch2"
+      }
+    },
+    {
+      "id": "r05",
+      "classId": "cat",
+      "groups": {
+        "a": "doc3",
+        "b": "batch2"
+      }
+    },
+    {
+      "id": "r06",
+      "classId": "dog",
+      "groups": {
+        "a": "doc3",
+        "b": "batch2"
+      }
+    },
+    {
+      "id": "r07",
+      "classId": "cat",
+      "groups": {
+        "a": "doc4",
+        "b": "batch3"
+      }
+    },
+    {
+      "id": "r08",
+      "classId": "dog",
+      "groups": {
+        "a": "doc4",
+        "b": "batch3"
+      }
+    }
+  ]
+}
